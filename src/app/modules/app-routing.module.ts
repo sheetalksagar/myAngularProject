@@ -35,6 +35,7 @@ import { SuperAuthGuard } from '../guards/super-auth.guard';
 import { TemplateFormsComponent } from './../component/forms/template-forms/template-forms.component';
 import { ReactiveFormsComponent } from './../component/forms/reactive-forms/reactive-forms.component';
 import { ProductViewComponent } from './../products/product-view/product-view.component';
+import { ExcelDataComponent } from '../excel-data/excel-data.component';
 
 
 // const routes: Routes = [];
@@ -115,6 +116,8 @@ const appsRoutes: Routes = [
       { path : 'lazy',loadChildren:'../modules/lazy/lazy.module#LazyModule'},
 
       { path:'materialCss',component: MaterialCssComponent },
+
+      { path:'ExcelData',component: ExcelDataComponent },
 
       { path: '**', component: PageNotFoundComponent },
 

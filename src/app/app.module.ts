@@ -61,6 +61,7 @@ import { ChildComponent } from './component/child/child.component';
 import { ParentsComponent } from './component/parents/parents.component';
 import { ProductViewComponent } from './products/product-view/product-view.component';
 import { HttpPostsComponent } from './component/http-posts/http-posts.component';
+import { ExcelDataComponent } from './excel-data/excel-data.component';
 //import {MatCheckboxModule} from '@angular/material/checkbox';
 
 @NgModule({
@@ -96,7 +97,8 @@ import { HttpPostsComponent } from './component/http-posts/http-posts.component'
     ChildComponent,
     ParentsComponent,
     ProductViewComponent,
-    HttpPostsComponent
+    HttpPostsComponent,
+    ExcelDataComponent
   ],
 
   imports: [BrowserModule, 
